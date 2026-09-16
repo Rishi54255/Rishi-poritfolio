@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Kanth | The Arsenal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+    <div id="repulsor-glow"></div>
+    <div id="flashlight"></div>
+
+    <div id="env-node" class="hidden">
+        <div class="env-line">SYS.STATUS: <span style="color:#43b581;">ONLINE</span></div>
+        <div class="env-line">GEO_LOCK: 33.8688° S, 151.2093° E</div>
+        <div class="env-line" id="sys-temp">SYS.TEMP: <span style="color:var(--accent-primary);">FETCHING SATELLITE DATA...</span></div>
+        <div class="env-line">LOCAL_SYNC: <span id="syd-clock">00:00:00</span> AEST</div>
+    </div>
+
+    <nav>
+        <div class="nav-brand">
+    <a href="index.html"><img src="images/logo.png" alt="RKV Logo" class="nav-logo"></a>
+</div>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html" class="nav-link-3d"><span class="face front">Launchpad</span><span class="face back">Home</span></a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link-3d"><span class="face front">Architect</span><span class="face back">About Me</span></a></li>
+            <li class="nav-item"><a href="influences.html" class="nav-link-3d"><span class="face front">Influences</span><span class="face back">Inspirations</span></a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link-3d active"><span class="face front">Arsenal</span><span class="face back">Portfolio</span></a></li>
+            <li class="nav-item"><a href="experience.html" class="nav-link-3d"><span class="face front">Timeline</span><span class="face back">Gallery</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link-3d"><span class="face front">Comms</span><span class="face back">Contact Me</span></a></li>
+        </ul>
+    </nav>
+
+    <section class="page-container perspective-wrap" style="padding-top: 140px; max-width: 1400px;">
+        
+        <div class="arsenal-header holo-section">
+            <h1 class="section-title decrypt-text" data-target="THE ARSENAL">_</h1>
+            <h2 class="section-subtitle" style="margin-bottom: 60px;">DEVELOPMENT TIMELINE & ARCHIVES</h2>
+        </div>
+
+        <div class="timeline-container">
+            
+            <!-- PHASE 1: 2018 & The Tennis Game -->
+            <div class="timeline-block split-container holo-section">
+                <div class="split-text tilt-card">
+                    <div class="timeline-badge">2018</div>
+                    <h3 class="split-title decrypt-text" data-target="PHASE I: THE GENESIS">_</h3>
+                    <div class="content-block">
+                        <p>Every system has a boot sequence. My coding journey was initialized back in 2018 in India. My first language was JavaScript, and my first functional project was a 2-player tennis game.</p>
+                        <p>It was simple, raw logic, but seeing lines of text turn into a playable interface flipped a switch in my head. You can test my original architecture right here on this screen.</p>
+                        <p style="color:var(--accent-primary); font-size:0.85rem; margin-top:15px;">[CONTROLS: P1 uses W/S | P2 uses UP/DOWN arrows]</p>
+                    </div>
+                </div>
+                <div class="split-visual tilt-card">
+                    <div class="pong-wrapper">
+                        <canvas id="pong-canvas" width="500" height="300"></canvas>
+                        <div id="pong-overlay" class="pong-overlay">CLICK TO INITIALIZE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 2: Roblox & Lua (NEW TRIANGLE GRID) -->
+            <div class="timeline-block split-container reverse holo-section">
+                <div class="split-text tilt-card">
+                    <div class="timeline-badge">12TH GRADE</div>
+                    <h3 class="split-title decrypt-text" data-target="PHASE II: THE ROBLOX SANDBOX">_</h3>
+                    <div class="content-block">
+                        <p>After a hiatus focused on academic studies through 11th grade, the system came back online in my 12th year. I started playing Roblox and quickly discovered Roblox Studio.</p>
+                        <p>This introduced me to <strong>Lua</strong>. Me and my friends began building our own games and environments. It was here that my passion for development solidified—I didn't just want to play games anymore; I wanted to architect them.</p>
+                    </div>
+                </div>
+                <div class="split-visual tilt-card">
+                    <div class="triangle-grid">
+                        <div class="v-item"><img src="images/roblox-1.jpg" alt="Lua Scripting"></div>
+                        <div class="v-item"><img src="images/roblox-2.jpg" alt="Roblox Studio Sandbox"></div>
+                        <div class="v-item"><img src="images/roblox-3.jpg" alt="French Royal Roleplay Architecture"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 3: Academic Acceleration (NEW TRIANGLE GRID) -->
+            <div class="timeline-block split-container holo-section">
+                <div class="split-text tilt-card">
+                    <div class="timeline-badge">CURRENT</div>
+                    <h3 class="split-title decrypt-text" data-target="PHASE III: ACADEMIC EXPANSION">_</h3>
+                    <div class="content-block">
+                        <p>With a reinforced passion for software, I resumed my journey with structural programming, learning <strong>Java</strong> and transitioning deeply into <strong>Python</strong>.</p>
+                        <p>Currently, under the excellent guidance of <strong>Barak Sir</strong> in the <em>Inside Information Technology</em> course, I learned the core pillars of web architecture: <strong>HTML, CSS, and PHP</strong>.</p>
+                        <p>This foundational knowledge gave me the exact tools required to architect, develop, and successfully deploy these robust web applications and websites from scratch.</p>
+                    </div>
+                </div>
+                <div class="split-visual tilt-card">
+                    <div class="triangle-grid">
+                        <div class="v-item"><img src="images/web-1.jpg" alt="HTML/CSS Architecture"></div>
+                        <div class="v-item"><img src="images/web-2.jpg" alt="Origin Cafe Layout"></div>
+                        <div class="v-item"><img src="images/web-3.jpg" alt="Fruit Ordering System PHP"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 4: The AI Matrix -->
+            <div class="timeline-block full-width-container holo-section" style="min-height: 800px;">
+                <div class="full-text-center tilt-card" style="margin-bottom: 40px;">
+                    <div class="timeline-badge" style="margin: 0 auto 15px auto;">2022 - PRESENT</div>
+                    <h3 class="split-title decrypt-text" data-target="PHASE IV: THE A.I. PARADIGM">_</h3>
+                    <div class="content-block" style="max-width: 800px; margin: 0 auto; text-align: center;">
+                        <p>I believe Artificial Intelligence is the ultimate force multiplier. The one who knows how to seamlessly integrate it will ace the industry. I first engaged with AI in 2022 to optimize my 10th-grade exam revisions, simplifying complex data.</p>
+                        <p>Today, I utilize AI as a collaborative co-pilot to architect massive websites, synthesize audio tracks, and render dynamic visual logos.</p>
+                    </div>
+                </div>
+
+                <!-- 1. AI Websites -->
+                <div class="ai-sub-section tilt-card">
+                    <h4 class="sub-category-title">1. WEB ARCHITECTURE</h4>
+                    <div class="visual-grid-3">
+                        <div class="v-item" style="min-height: 150px;"><img src="images/ai-web-1.jpg" alt="AI Web 1"></div>
+                        <div class="v-item" style="min-height: 150px;"><img src="images/ai-web-2.jpg" alt="AI Web 2"></div>
+                        <div class="v-item" style="min-height: 150px;"><img src="images/ai-web-3.jpg" alt="AI Web 3"></div>
+                    </div>
+                </div>
+
+                <!-- 2. AI Songs (Updated Titles) -->
+                <div class="ai-sub-section tilt-card">
+                    <h4 class="sub-category-title">2. AUDIO SYNTHESIS</h4>
+                    <div class="audio-grid">
+                        <div class="media-wrapper">
+                            <span class="media-label">SIREN IN CHAMBERS</span>
+                            <audio controls class="stark-audio"><source src="media/ai-song-1.mp3" type="audio/mpeg"></audio>
+                        </div>
+                        <div class="media-wrapper">
+                            <span class="media-label">CALCULATED GRACE</span>
+                            <audio controls class="stark-audio"><source src="media/ai-song-2.mp3" type="audio/mpeg"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. AI Logos (Centered 2-Grid) -->
+                <div class="ai-sub-section tilt-card">
+                    <h4 class="sub-category-title">3. VISUAL IDENTITY (LOGOS)</h4>
+                    <div class="visual-grid-2">
+                        <div class="media-wrapper">
+                            <video autoplay loop muted playsinline class="stark-video" style="min-height: 200px;">
+                                <source src="media/ai-logo-1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="media-wrapper">
+                            <video autoplay loop muted playsinline class="stark-video" style="min-height: 200px;">
+                                <source src="media/ai-logo-2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PHASE 5: Community & Editing (CENTERED DISCORD CARD) -->
+            <div class="timeline-block split-container reverse holo-section">
+                <div class="split-text tilt-card">
+                    <h3 class="split-title decrypt-text" data-target="PHASE V: POST-PRODUCTION & COMMERCE">_</h3>
+                    <div class="content-block">
+                        <p>A true system relies on its network. Beyond raw code, I have a deep passion for video editing and post-production, treating visual content exactly like a UI interface.</p>
+                        <p>More importantly, I architect and manage massive digital communities. I build and moderate highly structured Discord servers for gaming and coding networks, organizing bot logic, permissions, and thousands of concurrent users into a positive, cohesive environment.</p>
+                    </div>
+                </div>
+                <div class="split-visual tilt-card" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+                    <div class="discord-api-card" style="margin: 0 auto; width: 100%; max-width: 380px;">
+                        <div class="discord-header">
+                            <img src="images/discord-server.jpg" alt="TPC Logo" class="discord-avatar" style="object-fit: cover;">
+                            <div>
+                                <div class="d-name">TPC | The Prestige Club 🌸</div>
+                                <div class="d-status"><div class="status-dot online"></div> 29 Online • 311 Members</div>
+                            </div>
+                        </div>
+                        <div class="d-activity" style="margin-top: 15px;">
+                            Welcome to The Prestige Club — your ultimate Roblox hangout spot! Whether you're here to make new friends, kick back, or dive into games, our system is always online.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONCLUSION (Terminal Removed) -->
+            <div class="timeline-block holo-section">
+                <div class="stark-quote-container tilt-card" style="margin: 0 auto; background: rgba(229,169,60,0.05) !important;">
+                    <p class="card-desc" style="font-size: 1.2rem; margin-bottom: 20px;">
+                        Tony Stark built the Mark I suit in a cave with a box of scraps. For me, that cave was 2018, and those scraps were lines of JavaScript rendering a 2-player tennis game. 
+                    </p>
+                    <p class="card-desc" style="font-size: 1.2rem;">
+                        Today, whether I am writing Python scripts, generating AI-synthesized assets, or managing massive digital networks, the core directive remains exactly the same: <strong>Identify the problem. Engineer the solution. Never stop upgrading.</strong>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- VISUAL AUDIO ORB (GLOBAL VOICE ASSISTANT) -->
+    <button id="voice-orb" class="voice-orb tilt-card" title="Initialize Voice Protocols">
+        <div class="orb-core">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2c-1.7 0-3 1.2-3 2.8v6.4c0 1.6 1.3 2.8 3 2.8s3-1.2 3-2.8V4.8C15 3.2 13.7 2 12 2z"></path>
+                <path d="M19 10v1.2c0 3.7-3.1 6.8-7 6.8s-7-3.1-7-6.8V10"></path>
+                <line x1="12" y1="18" x2="12" y2="22"></line>
+            </svg>
+        </div>
+        <div class="orb-ring ring-1"></div>
+        <div class="orb-ring ring-2"></div>
+    </button>
+
+    <!-- MASTER INSTRUCTOR OVERRIDE OVERLAY -->
+    <div id="instructor-override" class="hidden-override">
+        <h1 class="glitch-active" data-text="MASTER INSTRUCTOR IDENTIFIED">MASTER INSTRUCTOR IDENTIFIED</h1>
+        <p>MAXIMUM CLEARANCE GRANTED. HELLO, BARAK SIR.</p>
+    </div>
+
+    <!-- J.A.R.V.I.S. SUBTITLE HUD -->
+    <div id="jarvis-subtitles" class="jarvis-subtitles">
+        <div id="subtitle-text" class="subtitle-text"></div>
+    </div>
+
+    <!-- FLOATING HUD DOCK (END OF PAGE FOOTER) -->
+    <div class="hud-dock-container holo-section">
+        <div class="hud-dock tilt-card">
+            <!-- Left: COMMS -->
+            <a href="contact.html" class="hud-action" title="Secure Channel">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span class="footer-decrypt" data-original="COMMS" data-hover="CONTACT ME">COMMS</span>
+            </a>
+            
+            <!-- Center: CLASSIFIED TEXT & REQUIRED SOCIALS -->
+            <div class="hud-center">
+                <div class="footer-socials">
+                    <a href="https://github.com/Rishi54255" target="_blank" title="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/rishi-kanth-reddy-vellaboyina-4040883b5/" target="_blank" title="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="https://www.instagram.com/rishi_54255/" target="_blank" title="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="https://www.tiktok.com/@vrishi_54255" target="_blank" title="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></a>
+                </div>
+                <span class="hud-copyright">[ ENCRYPTED CONNECTION ]<br>&copy; 2026 RISHI KANTH REDDY</span>
+            </div>
+
+            <!-- Right: EJECT -->
+            <button id="hud-eject-btn" class="hud-action" title="Initiate Ascent">
+                <span class="footer-decrypt" data-original="EJECT" data-hover="ASCEND">EJECT</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <button id="stealth-btn" title="Toggle Stealth Mode">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+        </svg>
+    </button>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Kanth | The Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+    <div id="repulsor-glow"></div>
+    <div id="flashlight"></div>
+
+    <nav>
+        <div class="nav-brand">
+    <a href="index.html"><img src="images/logo.png" alt="RKV Logo" class="nav-logo"></a>
+    <!-- Leave your [SYS.TIME] code here if it exists -->
+</div>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html" class="nav-link-3d"><span class="face front">Launchpad</span><span class="face back">Home</span></a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link-3d"><span class="face front">Architect</span><span class="face back">About Me</span></a></li>
+            <li class="nav-item"><a href="influences.html" class="nav-link-3d"><span class="face front">Influences</span><span class="face back">Inspirations</span></a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link-3d"><span class="face front">Arsenal</span><span class="face back">Portfolio</span></a></li>
+            <li class="nav-item"><a href="experience.html" class="nav-link-3d active"><span class="face front">Timeline</span><span class="face back">Gallery</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link-3d"><span class="face front">Comms</span><span class="face back">Contact Me</span></a></li>
+        </ul>
+    </nav>
+
+    <div class="page-container gallery-container">
+        
+        <!-- ============================================== -->
+        <!-- PHASE 1: INDIA (ORIGINS & CHILDHOOD) -->
+        <!-- ============================================== -->
+        <div class="arsenal-header holo-section">
+            <h1 class="section-title decrypt-text" data-target="ORIGINS: INDIA">_</h1>
+            <h2 class="section-subtitle">20 CLASSIFIED ARCHIVES (GENESIS TO ADOLESCENCE)</h2>
+        </div>
+
+        <div class="map-command-center tilt-card holo-section">
+            <div class="map-hud-overlay">
+                <span class="map-status">STATUS: UPLINK SECURED</span>
+                <span>SELECT NODE TO RETRIEVE DATA</span>
+            </div>
+            
+            <div class="hologram-map-container">
+                <img src="images/india-map-transparent.png" class="hologram-map-img" alt="India Map Uplink">
+                
+                <div class="map-nodes-layer">
+                    <!-- GENESIS NODES (01-05): Anantapur, Bangalore, Proddatur Region -->
+                    <div class="radar-node childhood-node" style="top: 78%; left: 42%;" data-target="in-pic-1"><span class="node-label">01</span></div>
+                    <div class="radar-node childhood-node" style="top: 72%; left: 44%;" data-target="in-pic-2"><span class="node-label">02</span></div>
+                    <div class="radar-node childhood-node" style="top: 69%; left: 47%;" data-target="in-pic-3"><span class="node-label">03</span></div>
+                    <div class="radar-node childhood-node" style="top: 74%; left: 45%;" data-target="in-pic-4"><span class="node-label">04</span></div>
+                    <div class="radar-node childhood-node" style="top: 77%; left: 41%;" data-target="in-pic-5"><span class="node-label">05</span></div>
+                    
+                    <!-- ADOLESCENCE NODES (06-20) -->
+                    <div class="radar-node" style="top: 30%; left: 40%;" data-target="in-pic-6"><span class="node-label">06</span></div>
+                    <div class="radar-node" style="top: 60%; left: 25%;" data-target="in-pic-7"><span class="node-label">07</span></div>
+                    <div class="radar-node" style="top: 62%; left: 48%;" data-target="in-pic-8"><span class="node-label">08</span></div>
+                    
+                    <!-- ROUTED TO EXTREME NORTH (JAMMU & KASHMIR) -->
+                    <div class="radar-node" style="top: 15%; left: 32%;" data-target="in-pic-9"><span class="node-label">09</span></div> 
+                    <div class="radar-node" style="top: 10%; left: 28%;" data-target="in-pic-18"><span class="node-label">18</span></div> 
+                    
+                    <div class="radar-node" style="top: 50%; left: 70%;" data-target="in-pic-10"><span class="node-label">10</span></div>
+                    <div class="radar-node" style="top: 38%; left: 32%;" data-target="in-pic-11"><span class="node-label">11</span></div>
+                    <div class="radar-node" style="top: 48%; left: 20%;" data-target="in-pic-12"><span class="node-label">12</span></div>
+                    <div class="radar-node" style="top: 63%; left: 28%;" data-target="in-pic-13"><span class="node-label">13</span></div>
+                    <div class="radar-node" style="top: 38%; left: 52%;" data-target="in-pic-14"><span class="node-label">14</span></div>
+                    <div class="radar-node" style="top: 42%; left: 65%;" data-target="in-pic-15"><span class="node-label">15</span></div>
+                    <div class="radar-node" style="top: 50%; left: 42%;" data-target="in-pic-16"><span class="node-label">16</span></div>
+                    <div class="radar-node" style="top: 55%; left: 45%;" data-target="in-pic-17"><span class="node-label">17</span></div>
+                    <div class="radar-node" style="top: 85%; left: 40%;" data-target="in-pic-19"><span class="node-label">19</span></div>
+                    <div class="radar-node" style="top: 40%; left: 85%;" data-target="in-pic-20"><span class="node-label">20</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INDIA: THE CENTRAL POWER SPINE (ALTERNATING TIMELINE) -->
+        <div class="timeline-stream holo-section">
+            <script>
+                for(let i=1; i<=20; i++) {
+                    let isGenesis = (i <= 5);
+                    let metaStatus = isGenesis ? `<span class="childhood-text">GENESIS (SOUTH)</span>` : `<span>ARCHIVE</span>`;
+                    let cardClass = isGenesis ? `genesis-pad` : ``;
+                    let sideClass = (i % 2 !== 0) ? `left-node` : `right-node`; // Alternates left/right
+                    
+                    document.write(`
+                        <div class="timeline-wrapper ${sideClass}" id="in-pic-${i}">
+                            <div class="data-pad ${cardClass}">
+                                <div class="pad-header"><span class="pad-id">FILE // 00${i}</span>${metaStatus}</div>
+                                <div class="pad-image-frame">
+                                    <img src="images/india-${i}.jpg" alt="[ DATA ]" class="pad-img" onerror="this.src='https://placehold.co/600x800/111418/e5a93c?text=ARCHIVE+00${i}'">
+                                    <div class="laser-scanner"></div><div class="frame-corners"></div>
+                                </div>
+                                <div class="pad-footer"><span class="pad-barcode">||||||| ||| ||</span><span class="pad-decrypt-msg">DECRYPTING...</span></div>
+                            </div>
+                        </div>
+                    `);
+                }
+            </script>
+        </div>
+
+        <!-- ============================================== -->
+        <!-- PHASE 2: AUSTRALIA (CURRENT) -->
+        <!-- ============================================== -->
+        <div class="arsenal-header holo-section" style="margin-top: 100px;">
+            <h1 class="section-title decrypt-text" data-target="CURRENT: AUSTRALIA">_</h1>
+            <h2 class="section-subtitle">LA TROBE SYDNEY ARCHIVES</h2>
+        </div>
+
+        <div class="map-3d-wrap holo-section">
+            <div class="hologram-map-container" style="max-width: 600px;">
+                <img src="images/aus-map-transparent.png" class="hologram-map-img aus-hologram" alt="Australia Map Uplink">
+                <div class="map-nodes-layer">
+                    <div class="radar-node active-pulse" style="top: 65%; left: 85%;" data-target="aus-pic-1"><span class="node-label">SYD (01)</span></div>
+                    <div class="radar-node active-pulse" style="top: 62%; left: 83%;" data-target="aus-pic-2"><span class="node-label">OPS (02)</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AUSTRALIA: ARMOR SELECTOR CAROUSEL -->
+        <div class="armor-carousel-wrapper holo-section">
+            <button class="carousel-btn" onclick="slideAus(-1)">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            
+            <div class="armor-carousel" id="aus-carousel">
+                <div class="data-pad" id="aus-pic-1">
+                    <div class="pad-header"><span class="pad-id">FILE // AUS_01</span><span class="childhood-text" style="background:var(--accent-primary);color:#000;">LA TROBE</span></div>
+                    <div class="pad-image-frame"><img src="images/aus-1.jpg" alt="[ DATA ]" class="pad-img" onerror="this.src='https://placehold.co/600x800/111418/00d2ff?text=LA+TROBE'"><div class="laser-scanner"></div></div>
+                    <div class="pad-footer"><span class="pad-barcode">||| |||| ||</span><span class="pad-decrypt-msg">DECRYPTING...</span></div>
+                </div>
+                <div class="data-pad" id="aus-pic-2">
+                    <div class="pad-header"><span class="pad-id">FILE // AUS_02</span><span class="childhood-text" style="background:var(--accent-primary);color:#000;">SRC EVENTS</span></div>
+                    <div class="pad-image-frame"><img src="images/aus-2.jpg" alt="[ DATA ]" class="pad-img" onerror="this.src='https://placehold.co/600x800/111418/00d2ff?text=SRC+EVENTS'"><div class="laser-scanner"></div></div>
+                    <div class="pad-footer"><span class="pad-barcode">||||| ||| |||</span><span class="pad-decrypt-msg">DECRYPTING...</span></div>
+                </div>
+            </div>
+
+            <button class="carousel-btn" onclick="slideAus(1)">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+        </div>
+
+        <!-- ============================================== -->
+        <!-- PHASE 3: PHOTOGRAPHY ARCHIVE (9-GRID) -->
+        <!-- ============================================== -->
+        <div class="arsenal-header holo-section" style="margin-top: 100px;">
+            <h1 class="section-title decrypt-text" data-target="VISUAL ARCHIVE">_</h1>
+            <h2 class="section-subtitle">SOME OF THE FEW AMAZING CLICKS I'VE TAKEN</h2>
+        </div>
+
+        <div class="photography-grid-wrapper holo-section" style="max-width: 1100px; margin: 0 auto 100px auto; padding: 0 20px;">
+            <div class="photography-grid">
+                <div class="v-item tilt-card"><img src="images/click-1.jpg" alt="Amazing Click 1" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+01'"></div>
+                <div class="v-item tilt-card"><img src="images/click-2.jpg" alt="Amazing Click 2" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+02'"></div>
+                <div class="v-item tilt-card"><img src="images/click-3.jpg" alt="Amazing Click 3" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+03'"></div>
+                <div class="v-item tilt-card"><img src="images/click-4.jpg" alt="Amazing Click 4" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+04'"></div>
+                <div class="v-item tilt-card"><img src="images/click-5.jpg" alt="Amazing Click 5" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+05'"></div>
+                <div class="v-item tilt-card"><img src="images/click-6.jpg" alt="Amazing Click 6" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+06'"></div>
+                <div class="v-item tilt-card"><img src="images/click-7.jpg" alt="Amazing Click 7" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+07'"></div>
+                <div class="v-item tilt-card"><img src="images/click-8.jpg" alt="Amazing Click 8" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+08'"></div>
+                <div class="v-item tilt-card"><img src="images/click-9.jpg" alt="Amazing Click 9" onerror="this.src='https://placehold.co/600x600/111418/e5a93c?text=CLICK+09'"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- J.A.R.V.I.S. SUBTITLE HUD & ORB & DOCK -->
+    <div id="jarvis-subtitles" class="jarvis-subtitles"><div id="subtitle-text" class="subtitle-text"></div></div>
+    <button id="voice-orb" class="voice-orb tilt-card" title="Initialize Voice Protocols">
+        <div class="orb-core"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c-1.7 0-3 1.2-3 2.8v6.4c0 1.6 1.3 2.8 3 2.8s3-1.2 3-2.8V4.8C15 3.2 13.7 2 12 2z"></path><path d="M19 10v1.2c0 3.7-3.1 6.8-7 6.8s-7-3.1-7-6.8V10"></path><line x1="12" y1="18" x2="12" y2="22"></line></svg></div>
+        <div class="orb-ring ring-1"></div><div class="orb-ring ring-2"></div>
+    </button>
+    <div id="instructor-override" class="hidden-override"><h1 class="glitch-active" data-text="MASTER INSTRUCTOR IDENTIFIED">MASTER INSTRUCTOR IDENTIFIED</h1><p>MAXIMUM CLEARANCE GRANTED. HELLO, BARAK SIR.</p></div>
+    
+  <!-- FLOATING HUD DOCK (END OF PAGE FOOTER) -->
+    <div class="hud-dock-container holo-section">
+        <div class="hud-dock tilt-card">
+            <!-- Left: COMMS -->
+            <a href="contact.html" class="hud-action" title="Secure Channel">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span class="footer-decrypt" data-original="COMMS" data-hover="CONTACT ME">COMMS</span>
+            </a>
+            
+            <!-- Center: CLASSIFIED TEXT & REQUIRED SOCIALS -->
+            <div class="hud-center">
+                <div class="footer-socials">
+                    <a href="https://github.com/Rishi54255" target="_blank" title="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/rishi-kanth-reddy-vellaboyina-4040883b5/" target="_blank" title="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="https://www.instagram.com/rishi_54255/" target="_blank" title="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="https://www.tiktok.com/@vrishi_54255" target="_blank" title="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></a>
+                </div>
+                <span class="hud-copyright">[ ENCRYPTED CONNECTION ]<br>&copy; 2026 RISHI KANTH REDDY</span>
+            </div>
+
+            <!-- Right: EJECT -->
+            <button id="hud-eject-btn" class="hud-action" title="Initiate Ascent">
+                <span class="footer-decrypt" data-original="EJECT" data-hover="ASCEND">EJECT</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>    
+    <button id="stealth-btn" title="Toggle Stealth Mode"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></button>
+    <script src="js/main.js"></script>
+</body>
+</html>

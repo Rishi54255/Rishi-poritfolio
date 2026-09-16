@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Kanth | IT Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+    <div id="repulsor-glow"></div>
+    <div id="flashlight"></div>
+
+    <div id="env-node" class="hidden">
+        <div class="env-line">SYS.STATUS: <span style="color:#43b581;">ONLINE</span></div>
+        <div class="env-line">GEO_LOCK: 33.8688° S, 151.2093° E</div>
+        <div class="env-line" id="sys-temp">SYS.TEMP: <span style="color:var(--accent-primary);">FETCHING SATELLITE DATA...</span></div>
+        <div class="env-line">LOCAL_SYNC: <span id="syd-clock">00:00:00</span> AEST</div>
+    </div>
+
+    <nav>
+        <div class="nav-brand">
+            <a href="index.html"><img src="images/logo.png" alt="RKV Logo" class="nav-logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html" class="nav-link-3d active"><span class="face front">Launchpad</span><span class="face back">Home</span></a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link-3d"><span class="face front">Architect</span><span class="face back">About Me</span></a></li>
+            <li class="nav-item"><a href="influences.html" class="nav-link-3d"><span class="face front">Influences</span><span class="face back">Inspirations</span></a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link-3d"><span class="face front">Arsenal</span><span class="face back">Portfolio</span></a></li>
+            <li class="nav-item"><a href="experience.html" class="nav-link-3d"><span class="face front">Timeline</span><span class="face back">Gallery</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link-3d"><span class="face front">Comms</span><span class="face back">Contact Me</span></a></li>
+        </ul>
+    </nav>
+
+    <header id="hero-section" class="parallax-hero">
+        <div class="terminal-container">
+            <div id="jarvis-output"></div>
+            <div id="jarvis-waveform" class="hidden">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+        
+        <div id="hero-parallax-target">
+            <div id="profile-wrap" class="hidden" title="Core Matrix">
+                
+                <!-- DUAL PROFILE HOVER MATRIX -->
+                <div class="dual-profile-box">
+                    <!-- Image 1 (Default State) -->
+                    <img src="images/profile-main.jpg" alt="RKV Profile" class="profile-pic pic-front" onerror="this.src='https://placehold.co/400x400/111418/e5a93c?text=RKV+MAIN'">
+                    
+                    <!-- Image 2 (Hover State) -->
+                    <img src="images/profile-hover.jpg" alt="RKV Avatar" class="profile-pic pic-back" onerror="this.src='https://placehold.co/400x400/111418/00d2ff?text=RKV+ALT'">
+                </div>
+            </div>
+            
+            <h1 id="main-title" class="hidden" data-text="Rishi Kanth Reddy Vellaboyina">Rishi Kanth Reddy Vellaboyina</h1>
+            <h2 id="sub-title" class="hidden decrypt-text" data-target="DIGITAL ARCHITECT // LA TROBE IT">_</h2>
+
+            <div id="hex-console" class="hidden draggable-hex">
+                <a href="about.html" class="hex-cell">
+                    <div class="hex-inner">
+                        <span class="hex-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 2 7 2 17 12 22 22 17 22 7 12 2"></polygon>
+                                <polyline points="2 7 12 12 22 7"></polyline>
+                                <polyline points="12 22 12 12"></polyline>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </span>
+                        <span class="hex-text" data-original="ARCHITECT" data-hover="ABOUT ME">ARCHITECT</span>
+                    </div>
+                </a>
+                <a href="projects.html" class="hex-cell hex-center">
+                    <div class="hex-inner">
+                        <span class="hex-icon">
+                            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="6"></circle>
+                                <line x1="12" y1="2" x2="12" y2="6"></line>
+                                <line x1="12" y1="18" x2="12" y2="22"></line>
+                                <line x1="2.27" y1="15" x2="5.73" y2="13"></line>
+                                <line x1="18.27" y1="11" x2="21.73" y2="9"></line>
+                                <line x1="2.27" y1="9" x2="5.73" y2="11"></line>
+                                <line x1="18.27" y1="13" x2="21.73" y2="15"></line>
+                            </svg>
+                        </span>
+                        <span class="hex-text" data-original="ARSENAL" data-hover="PORTFOLIO">ARSENAL</span>
+                    </div>
+                </a>
+                <a href="contact.html" class="hex-cell">
+                    <div class="hex-inner">
+                        <span class="hex-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4a16 16 0 0 1 16 16"></path>
+                                <path d="M4 11a9 9 0 0 1 9 9"></path>
+                                <path d="M4 18v.01"></path>
+                            </svg>
+                        </span>
+                        <span class="hex-text" data-original="COMMS" data-hover="CONTACT ME">COMMS</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- VISUAL AUDIO ORB (GLOBAL VOICE ASSISTANT) -->
+    <button id="voice-orb" class="voice-orb tilt-card" title="Initialize Voice Protocols">
+        <div class="orb-core">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2c-1.7 0-3 1.2-3 2.8v6.4c0 1.6 1.3 2.8 3 2.8s3-1.2 3-2.8V4.8C15 3.2 13.7 2 12 2z"></path>
+                <path d="M19 10v1.2c0 3.7-3.1 6.8-7 6.8s-7-3.1-7-6.8V10"></path>
+                <line x1="12" y1="18" x2="12" y2="22"></line>
+            </svg>
+        </div>
+        <div class="orb-ring ring-1"></div>
+        <div class="orb-ring ring-2"></div>
+    </button>
+
+    <!-- BARAK SIR INSTRUCTOR OVERRIDE OVERLAY -->
+    <div id="instructor-override" class="hidden-override">
+        <h1 class="glitch-active" data-text="MASTER INSTRUCTOR IDENTIFIED">MASTER INSTRUCTOR IDENTIFIED</h1>
+        <p>MAXIMUM CLEARANCE GRANTED. HELLO, BARAK SIR.</p>
+    </div>
+
+    <!-- J.A.R.V.I.S. SUBTITLE HUD -->
+    <div id="jarvis-subtitles" class="jarvis-subtitles">
+        <div id="subtitle-text" class="subtitle-text"></div>
+    </div>
+
+
+<!-- FLOATING HUD DOCK (END OF PAGE FOOTER) -->
+    <div class="hud-dock-container holo-section">
+        <div class="hud-dock tilt-card">
+            <!-- Left: COMMS -->
+            <a href="contact.html" class="hud-action" title="Secure Channel">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span class="footer-decrypt" data-original="COMMS" data-hover="CONTACT ME">COMMS</span>
+            </a>
+            
+            <!-- Center: CLASSIFIED TEXT & REQUIRED SOCIALS -->
+            <div class="hud-center">
+                <div class="footer-socials">
+                    <a href="https://github.com/Rishi54255" target="_blank" title="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/rishi-kanth-reddy-vellaboyina-4040883b5/" target="_blank" title="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="https://www.instagram.com/rishi_54255/" target="_blank" title="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="https://www.tiktok.com/@vrishi_54255" target="_blank" title="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></a>
+                </div>
+                <span class="hud-copyright">[ ENCRYPTED CONNECTION ]<br>&copy; 2026 RISHI KANTH REDDY</span>
+            </div>
+
+            <!-- Right: EJECT -->
+            <button id="hud-eject-btn" class="hud-action" title="Initiate Ascent">
+                <span class="footer-decrypt" data-original="EJECT" data-hover="ASCEND">EJECT</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <button id="stealth-btn" title="Toggle Stealth Mode">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+        </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

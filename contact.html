@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Kanth | COMMS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+    <div id="repulsor-glow"></div>
+    <div id="flashlight"></div>
+
+    <nav>
+        <div class="nav-brand">
+    <a href="index.html"><img src="images/logo.png" alt="RKV Logo" class="nav-logo"></a>
+    <!-- Leave your [SYS.TIME] code here if it exists -->
+</div>
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html" class="nav-link-3d"><span class="face front">Launchpad</span><span class="face back">Home</span></a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link-3d"><span class="face front">Architect</span><span class="face back">About Me</span></a></li>
+            <li class="nav-item"><a href="influences.html" class="nav-link-3d"><span class="face front">Influences</span><span class="face back">Inspirations</span></a></li>
+            <li class="nav-item"><a href="projects.html" class="nav-link-3d"><span class="face front">Arsenal</span><span class="face back">Portfolio</span></a></li>
+            <li class="nav-item"><a href="experience.html" class="nav-link-3d"><span class="face front">Timeline</span><span class="face back">Gallery</span></a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link-3d active"><span class="face front">Comms</span><span class="face back">Contact Me</span></a></li>
+        </ul>
+    </nav>
+
+    <div class="page-container comms-container">
+        
+        <div class="arsenal-header holo-section">
+            <h1 class="section-title decrypt-text" data-target="SECURE UPLINK">_</h1>
+            <h2 class="section-subtitle">ESTABLISH DIRECT COMMUNICATION</h2>
+        </div>
+
+        <!-- UNIQUE ELEMENT: LIVE UPLINK TERMINAL & FREQUENCY WAVE -->
+        <div class="uplink-terminal tilt-card holo-section">
+            <div class="terminal-stats">
+                <p>> ENCRYPTION: <span style="color:#43b581;">AES-256 ACTIVE</span></p>
+                <p>> SERVER NODE: <span style="color:var(--accent-primary);">SYDNEY, NSW [AEST]</span></p>
+                <p>> CHANNEL STATUS: <span class="blinking-text">LISTENING</span></p>
+            </div>
+            <div class="frequency-visualizer">
+                <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+                <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+            </div>
+        </div>
+
+        <div class="comms-split">
+            <!-- LEFT: THE J.A.R.V.I.S. TRANSMISSION FORM -->
+            <div class="comms-form-wrapper tilt-card holo-section">
+                <!-- FORM SUBMIT BRIDGE (WIRED TO YOUR EMAIL) -->
+                <form id="contact-form" action="https://formsubmit.co/vrishi54255@gmail.com" method="POST" onsubmit="return validateForm(event)">
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New J.A.R.V.I.S. Transmission from Portfolio!">
+                    <input type="hidden" name="message" id="hidden-message">
+
+                    <div class="form-group">
+                        <label class="form-label">> IDENTIFICATION [NAME]</label>
+                        <input type="text" id="sender-name" name="name" class="form-input" placeholder="Enter your designation...">
+                        <div id="name-error" class="error-msg">ERROR: Identification Required.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">> RETURN NODE [EMAIL]</label>
+                        <input type="email" id="sender-email" name="email" class="form-input" placeholder="name@network.com">
+                        <div id="email-error" class="error-msg">ERROR: Valid Return Node Required.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">> TRANSMISSION PAYLOAD [MESSAGE]</label>
+                        <div id="transcription-box" class="transcription-box" contenteditable="true" data-placeholder="Awaiting manual input or voice transcription..."></div>
+                        <div id="msg-error" class="error-msg">ERROR: Payload Cannot Be Empty.</div>
+                        
+                        <button type="button" id="transcriber-btn" class="transcriber-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c-1.7 0-3 1.2-3 2.8v6.4c0 1.6 1.3 2.8 3 2.8s3-1.2 3-2.8V4.8C15 3.2 13.7 2 12 2z"></path><path d="M19 10v1.2c0 3.7-3.1 6.8-7 6.8s-7-3.1-7-6.8V10"></path></svg>
+                            INITIATE J.A.R.V.I.S. TRANSCRIBER
+                        </button>
+                    </div>
+
+                    <button type="submit" class="submit-btn">TRANSMIT DATA</button>
+                </form>
+            </div>
+
+            <!-- RIGHT: THE SOCIAL RELAY GRID -->
+            <div class="external-relays tilt-card holo-section">
+                <h3 class="hud-title" style="text-align: center; margin-bottom: 25px;">EXTERNAL RELAYS</h3>
+                <div class="social-grid">
+                    <!-- GITHUB -->
+                    <a href="https://github.com/Rishi54255" target="_blank" class="social-node">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>GITHUB</span>
+                    </a>
+                    <!-- LINKEDIN -->
+                    <a href="https://www.linkedin.com/in/rishi-kanth-reddy-vellaboyina-4040883b5/" target="_blank" class="social-node">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <span>LINKEDIN</span>
+                    </a>
+                    <!-- INSTAGRAM -->
+                    <a href="https://www.instagram.com/rishi_54255/?utm_source=ig_web_button_share_sheet" target="_blank" class="social-node">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        <span>INSTAGRAM</span>
+                    </a>
+                    <!-- FACEBOOK -->
+                    <a href="https://www.facebook.com/profile.php?id=61583727924466" target="_blank" class="social-node">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        <span>FACEBOOK</span>
+                    </a>
+                    <!-- SPOTIFY -->
+                    <a href="https://open.spotify.com/user/31zxerxxcf2u3wyefy3suf2fvfru" target="_blank" class="social-node">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 11.973c2.5-1.473 5.5-.973 7.5.527"></path><path d="M9 15c1.5-1 4-1 5 .5"></path><path d="M7 9c3-2 7-2 10 0"></path></svg>
+                        <span>SPOTIFY</span>
+                    </a>
+                    <!-- TIKTOK -->
+                    <a href="https://www.tiktok.com/@vrishi_54255" target="_blank" class="social-node">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                        <span>TIKTOK</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- J.A.R.V.I.S. SUBTITLE HUD & ORB & DOCK -->
+    <div id="jarvis-subtitles" class="jarvis-subtitles"><div id="subtitle-text" class="subtitle-text"></div></div>
+    <button id="voice-orb" class="voice-orb tilt-card" title="Initialize Voice Protocols"><div class="orb-core"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c-1.7 0-3 1.2-3 2.8v6.4c0 1.6 1.3 2.8 3 2.8s3-1.2 3-2.8V4.8C15 3.2 13.7 2 12 2z"></path><path d="M19 10v1.2c0 3.7-3.1 6.8-7 6.8s-7-3.1-7-6.8V10"></path><line x1="12" y1="18" x2="12" y2="22"></line></svg></div><div class="orb-ring ring-1"></div><div class="orb-ring ring-2"></div></button>
+    <div id="instructor-override" class="hidden-override"><h1 class="glitch-active" data-text="MASTER INSTRUCTOR IDENTIFIED">MASTER INSTRUCTOR IDENTIFIED</h1><p>MAXIMUM CLEARANCE GRANTED. HELLO, BARAK SIR.</p></div>
+    
+    <!-- FLOATING HUD DOCK (END OF PAGE FOOTER) -->
+    <div class="hud-dock-container holo-section">
+        <div class="hud-dock tilt-card">
+            <!-- Left: COMMS -->
+            <a href="contact.html" class="hud-action" title="Secure Channel">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span class="footer-decrypt" data-original="COMMS" data-hover="CONTACT ME">COMMS</span>
+            </a>
+            
+            <!-- Center: CLASSIFIED TEXT & REQUIRED SOCIALS -->
+            <div class="hud-center">
+                <div class="footer-socials">
+                    <a href="https://github.com/Rishi54255" target="_blank" title="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/rishi-kanth-reddy-vellaboyina-4040883b5/" target="_blank" title="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="https://www.instagram.com/rishi_54255/" target="_blank" title="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="https://www.tiktok.com/@vrishi_54255" target="_blank" title="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></a>
+                </div>
+                <span class="hud-copyright">[ ENCRYPTED CONNECTION ]<br>&copy; 2026 RISHI KANTH REDDY</span>
+            </div>
+
+            <!-- Right: EJECT -->
+            <button id="hud-eject-btn" class="hud-action" title="Initiate Ascent">
+                <span class="footer-decrypt" data-original="EJECT" data-hover="ASCEND">EJECT</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+    
+    <button id="stealth-btn" title="Toggle Stealth Mode"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></button>
+    <script src="js/main.js"></script>
+
+    <!-- FORM VALIDATION & TRANSCRIBER SCRIPT -->
+    <script>
+        // 1. Analyzed Transcriber
+        const transBtn = document.getElementById('transcriber-btn');
+        const tBox = document.getElementById('transcription-box');
+        const LocalSpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+        if (transBtn) {
+            if (!LocalSpeechRec) {
+                transBtn.innerHTML = "TRANSCRIBER OFFLINE"; transBtn.style.color = "#cc0000"; transBtn.style.borderColor = "#cc0000";
+            } else {
+                const formRec = new LocalSpeechRec();
+                formRec.continuous = false; formRec.interimResults = true;
+
+                transBtn.addEventListener('click', () => {
+                    transBtn.classList.add('active'); transBtn.innerHTML = "LISTENING... SPEAK NOW."; tBox.innerHTML = ""; formRec.start();
+                });
+
+                formRec.onresult = (event) => {
+                    let interimTranscript = '';
+                    for (let i = event.resultIndex; i < event.results.length; ++i) {
+                        if (event.results[i].isFinal) {
+                            let finalString = event.results[i][0].transcript;
+                            const keywords = ["interview", "hire", "job", "opportunity", "barak sir", "project"];
+                            keywords.forEach(word => {
+                                const regex = new RegExp(`\\b${word}\\b`, 'gi');
+                                finalString = finalString.replace(regex, match => `<span class="analyzed-keyword">[${match.toUpperCase()}]</span>`);
+                            });
+                            tBox.innerHTML += finalString + " ";
+                        } else { interimTranscript += event.results[i][0].transcript; }
+                    }
+                };
+                formRec.onend = () => { transBtn.classList.remove('active'); transBtn.innerHTML = "TRANSCRIBER DISENGAGED. PAYLOAD READY."; };
+            }
+        }
+
+        // 2. Email Routing & Form Validation
+        function validateForm(e) {
+            let isValid = true;
+            const nameInput = document.getElementById('sender-name');
+            const emailInput = document.getElementById('sender-email');
+            const hiddenMsg = document.getElementById('hidden-message');
+            const nameErr = document.getElementById('name-error');
+            const emailErr = document.getElementById('email-error');
+            const msgErr = document.getElementById('msg-error');
+
+            nameInput.classList.remove('error-active'); emailInput.classList.remove('error-active'); tBox.style.borderColor = "rgba(255,255,255,0.2)";
+            nameErr.style.display = "none"; emailErr.style.display = "none"; msgErr.style.display = "none";
+
+            if(nameInput.value.trim() === "") { nameInput.classList.add('error-active'); nameErr.style.display = "block"; isValid = false; }
+            if(!emailInput.value.includes('@') || emailInput.value.trim() === "") { emailInput.classList.add('error-active'); emailErr.style.display = "block"; isValid = false; }
+            if(tBox.innerText.trim() === "") { tBox.style.borderColor = "#ff5f56"; msgErr.style.display = "block"; isValid = false; }
+
+            if(isValid) {
+                hiddenMsg.value = tBox.innerText; // Packages the voice payload for email
+                const submitBtn = document.querySelector('.submit-btn');
+                submitBtn.innerHTML = "UPLINK ESTABLISHED... SENDING";
+                submitBtn.style.background = "var(--accent-primary)";
+                return true; 
+            } else {
+                e.preventDefault(); return false;
+            }
+        }
+    </script>
+</body>
+</html>
